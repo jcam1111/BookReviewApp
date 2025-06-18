@@ -1,0 +1,79 @@
+## Compilación de .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Configuración local
+*.dbmdl
+*.vscode/
+*.env
+*.localsettings.json
+appsettings.Development.json
+appsettings.Local.json
+
+## Archivos de publicación
+publish/
+out/
+*.Publish.xml
+
+## Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+
+## Archivos de paquete
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Configuración de Rider o VS Code
+.idea/
+.vscode/
+*.code-workspace
+
+## Configuración de Visual Studio
+*.vs/
+*.psess
+*.vsp
+*.pdb
+*.cache
+*.csproj.user
+
+## Sistema operativo
+.DS_Store
+Thumbs.db
+
+## Node.js (si usas frontend con Angular/React en el mismo proyecto)
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+
+## Dotnet secrets
+secrets.json
+
+## Certificados de desarrollo (HTTPS locales)
+*.pfx
+*.pem
+*.crt
+*.key
+
+## Archivos de test (si generas coverage)
+TestResults/
+coverage/
+coverage*.json
+*.trx
+*.coverage
+
+## Archivos de análisis estático
+*.ruleset
+*.editorconfig
+
+## Otros
+Releases/
